@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 
 })
 export class NavComponent implements OnInit {
- 
+
 
   ngOnInit(): void {
     $("#menu-toggle").click(function(e) {
