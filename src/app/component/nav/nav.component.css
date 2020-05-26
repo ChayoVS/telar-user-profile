@@ -59,3 +59,7 @@ body {
     background-color: transparent !important;
     border-color: transparent !important;
 }
+
+#sidebar-wrapper[_ngcontent-bmj-c18] {
+    min-width: 1vw;
+}
