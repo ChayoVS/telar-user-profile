@@ -63,3 +63,16 @@ body {
 .border-right {
     border-right: transparent !important;
 }
+
+
+/* Modificaré más estilos*/
+
+.sidebar-heading {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.sign-out {
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+}
