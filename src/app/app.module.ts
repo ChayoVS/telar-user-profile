@@ -7,13 +7,17 @@ import { AppComponent } from './app.component';
 
 import * as $ from 'jquery'
 
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    
+  ],
+  exports:[
   ],
   providers: [],
   bootstrap: [AppComponent]
