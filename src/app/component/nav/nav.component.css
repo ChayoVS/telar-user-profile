@@ -60,6 +60,6 @@ body {
     border-color: transparent !important;
 }
 
-#sidebar-wrapper[_ngcontent-bmj-c18] {
-    min-width: 1vw;
+.border-right {
+    border-right: transparent !important;
 }
