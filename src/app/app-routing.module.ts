@@ -4,6 +4,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { PerfilComponent } from './component/perfil/perfil.component';
 import { HomeComponent } from './component/home/home.component';
 
+
 const routes: Routes = [
   {path: '', component: PerfilComponent},
   {path: 'perfil-usuario', component: PerfilComponent},

@@ -1,0 +1,88 @@
+/* font-family: 'Cabin', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+.contenedor{
+  background-color: #EEEFDD;
+}
+.info-gen{
+  padding: 50px;
+  border-right: 2px solid #ABA9A9;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+h3,h4,h5,p,li{
+  font-family: 'Cabin', sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+ul{
+  list-style:none;
+}
+.icono{
+  width: 13px;
+  height: auto;
+  margin:5px 10px;
+}
+.icono-cel{
+  width: 10px;
+  height: auto;
+  margin:5px 10px;
+}
+.info-gen li{
+  font-size: 11px;
+}
+.info-gen button{
+  font-size: 11px;
+  color: #4F424B;
+}
+.card-mostrar{
+  background:#EEEFDD;
+}
+.profile{
+text-align: center;
+}
+.profile img{
+  width: 150px;
+  margin:30px;
+}
+.contact{
+margin-top: 30px;
+}
+.menu-info h4{
+  font-size: 12px;
+}
+.info{
+  padding: 80px;
+}
+button{
+  font-size: 20px;
+  border: none;
+  color:#F28E2A;
+  background-color: transparent;
+}
+.info-place{
+  margin-top: 20px;
+}
+.info-place img{
+  width: 400px;
+}
+.carousel h3{
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Cabin', sans-serif;
+}
+.carousel {
+  padding-bottom: 50px;
+}
+.carousel-people{
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.carousel-people img{
+  width: 80%;
+  margin: 15px;
+}

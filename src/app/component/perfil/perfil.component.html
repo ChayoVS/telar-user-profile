@@ -1,0 +1,105 @@
+<div class="contenedor">
+  <div class="row">
+    <div class="info-gen col-3">
+      <div class="profile">
+        <img src="../../../assets/./img/perfil.png" alt="mujer" >
+      </div>
+
+      <h1>Claudia Rosas Martinez</h1>
+      <h4>Fotógrafa</h4>
+      <div class="contact">
+        <h3>Contacto</h3>
+            <ul>
+              <li> <img src="../../../assets/./iconos/icono-correo.png" alt="correo" class="icono">rosa_clau@gmail.com</li>
+              <li><img src="../../../assets/./iconos/icono-cel.png" alt="celular" class="icono-cel">55 8392 6709</li>
+              <li><img src="../../../assets/./iconos/icono-tele.png" alt="telefono" class="icono">5798 6543</li>
+              <li><img src="../../../assets/./iconos/icono-face.png" alt="facebook" class="icono">Claudia Rosas Martinez</li>
+              <li><img src="../../../assets/./iconos/icono-ins.png" alt="instagram" class="icono">clau.fotografia</li>
+              <li><img src="../../../assets/./iconos/icono-tw.png" alt="twitter" class="icono">claudia_foto</li>
+              <li><img src="../../../assets/./iconos/icono-you.png" alt="youtobe" class="icono">claudia-rosas-m</li>
+            </ul>
+      </div>
+
+      <div class="menu-info row">
+        <div class="col-4">
+          <button (click)="mostrar= !mostrar">Especialidad</button>
+          <hr>
+          <div *ngIf="mostrar" class="card-mostrar card" style="width: 13rem;">
+            <div class=" card-body">
+                <p>{{ texto.mensaje1 }} </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <button (click)="mostrar1= !mostrar1">Técnica</button>
+          <hr>
+          <div *ngIf="mostrar1" class="card-mostrar card" style="width: 13rem;">
+            <div class=" card-body">
+                <p>{{ texto1.mensaje2 }} </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <button (click)="mostrar2= !mostrar2">Población</button>
+          <hr>
+          <div *ngIf="mostrar2" class="card-mostrar card" style="width: 13rem;">
+            <div class=" card-body">
+                <p>{{ texto2.mensaje3 }} </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="info col-4">
+      <ul>
+        <li>Folio <strong>11475</strong></li>
+        <li>CURP <strong>ROMC910623MDFRLB11</strong></li>
+        <li>Fecha de nacimiento <strong>1991-06-23</strong></li>
+        <li>Lugar de nacimiento <strong>Milpa Alta, Ciudad de México</strong></li>
+        <li>Género <strong>Mujer</strong></li>
+        <li>Experiencia <strong>8 años</strong></li>
+      </ul>
+    </div>
+    <div class="info col-5">
+
+      <h5>Acerca de mi trabajo</h5>
+      <p><strong>Tomo fotografía de paisaje, me gusta utilizar cámaras análogas. He viajado a diferentes regiones
+        de México en busca de los mejores paisajes.</strong></p>
+        <button>Ver más</button>
+      <div class="info-place">
+        <h5>Lugar de residencia</h5>
+        <p><strong>Coyoacán, CDMX</strong></p>
+        <img src="../../../assets/./img/mapa.png" alt="mapa" >
+      </div>
+    </div>
+  </div>
+  <div class="carousel">
+    <h3>Red de agentes</h3>
+    <div class="carousel-people">
+      <div>
+        <img src="../../../assets/./img/people1.png" alt="mujer" >
+        <h6>Ximena Flores</h6>
+        <p>Actriz de teatro</p>
+      </div>
+      <div>
+        <img src="../../../assets/./img/people2.png" alt="mujer" >
+        <h6>Ximena Flores</h6>
+        <p>Actriz de teatro</p>
+      </div>
+      <div>
+        <img src="../../../assets/./img/people3.png" alt="mujer" >
+        <h6>Ximena Flores</h6>
+        <p>Actriz de teatro</p>
+      </div>
+      <div>
+        <img src="../../../assets/./img/people4.png" alt="mujer" >
+        <h6>Ximena Flores</h6>
+        <p>Actriz de teatro</p>
+      </div>
+      <div>
+        <img src="../../../assets/./img/circulo.png" alt="circulo" >
+      </div>
+    </div>
+  </div>
+
+</div>
