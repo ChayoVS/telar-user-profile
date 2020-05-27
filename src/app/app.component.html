@@ -1,7 +1,7 @@
 <div class="d-flex" id="wrapper">
     <!-- Sidebar -->
     <div class="bg-light border-right text-center" id="sidebar-wrapper">
-        <div class="sidebar-heading">
+        <div class="sidebar-heading" routerLink="home">
             <svg width="50" height="44" viewBox="0 0 50 44" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path
           fill-rule="evenodd"
@@ -276,8 +276,7 @@
                 </form>
             </div>
         </nav>
+        <router-outlet></router-outlet>
     </div>
     <!-- /#page-content-wrapper -->
 </div>
-
-<router-outlet></router-outlet>
