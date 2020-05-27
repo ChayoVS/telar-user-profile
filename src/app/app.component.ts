@@ -8,10 +8,15 @@ import { Component, OnInit } from '@angular/core';
 export class AppComponent implements OnInit {
 
 
+  constructor() { }
+
+
   ngOnInit(): void {
-    $("#menu-toggle").click(function(e) {
+    const abrir : string = "Abrir".toUpperCase()
+    $("#menu-toggle").click(function (e) {
       e.preventDefault();
       $("#wrapper").toggleClass("toggled");
     });
-  }
+  };
 }
+
