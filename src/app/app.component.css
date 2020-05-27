@@ -76,3 +76,7 @@ body {
     margin-top: 8rem;
     margin-bottom: 2rem;
 }
+
+.form-control {
+    border: transparent;
+}
