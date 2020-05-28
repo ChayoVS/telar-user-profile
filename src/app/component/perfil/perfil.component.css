@@ -45,16 +45,16 @@ text-align: center;
 }
 .profile img{
   width: 150px;
-  margin:30px;
+margin-bottom: 20px;
 }
 .contact{
 margin-top: 30px;
 }
-.menu-info h4{
-  font-size: 12px;
+.menu-info button{
+  font-size: 10px;
 }
 .info{
-  padding: 80px;
+  padding: 50px;
 }
 button{
   font-size: 20px;
@@ -65,15 +65,15 @@ button{
 .info-place{
   margin-top: 20px;
 }
-.info-place img{
-  width: 400px;
+#map{
+  width: 280px;
 }
-.carousel h3{
+.conteiner-agentes h3{
   text-align: center;
   font-size: 20px;
   font-family: 'Cabin', sans-serif;
 }
-.carousel {
+.conteiner-agentes {
   padding-bottom: 50px;
 }
 .carousel-people{
@@ -85,4 +85,56 @@ button{
 .carousel-people img{
   width: 80%;
   margin: 15px;
+}
+.arrow{
+  display: flex;
+  align-items: flex-end;
+}
+/* #carouselExampleControls{
+  display: none;
+} */
+.carousel{
+  display: none;
+}
+@media (max-width: 768px){
+  .info-gen{
+    margin-left: 70px;
+  }
+.info{
+  margin-left: 40px;
+}
+}
+@media (min-width: 320px) and (max-width: 480px){
+  .contenedor{
+    padding: 0;
+
+  }
+  .info-gen{
+    border-right: none;
+    margin: 0;
+    padding: 80px;
+  }
+  .info{
+    margin: 0;
+  }
+  #map{
+    width: 250px;
+  }
+  .conteiner-agentes{
+    display: none;
+  }
+  .carousel{
+   display: contents;
+  }
+
+  #carouselExampleControls{
+    width: 350px;
+  }
+  .carousel-inner{
+  width: 200px;
+  }
+  .img-carousel{
+    display: flex;
+    justify-content: center;
+  }
 }
