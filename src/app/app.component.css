@@ -71,8 +71,7 @@
     }
     
     .sign-out {
-        margin-top: 8rem;
-        margin-bottom: 2rem;
+        bottom: -12rem;
     }
     
     .form-control {
