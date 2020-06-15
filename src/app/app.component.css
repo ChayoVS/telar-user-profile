@@ -77,6 +77,8 @@
     
     .form-control {
         border: transparent;
+        background-color: #EEEFDD;
+        border-right: none;
     }
     
     .btn-primary.focus,
@@ -102,4 +104,14 @@
         border-radius: 25px;
         font-size: 10px;
         text-align: center;
+    }
+    
+    .input-group-text {
+        border: none;
+        background-color: #EEEFDD;
+    }
+    
+    .guitar {
+        width: 40px;
+        height: 40px;
     }
