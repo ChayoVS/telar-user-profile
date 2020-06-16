@@ -18,6 +18,8 @@
     border-radius: 1.563rem;
     background: #F28E2A !important;
     border-color: #F28E2A !important;
+    margin-top: 9.375rem;
+    margin-left: -3.75rem;
 }
 
 .fa-plus {
@@ -53,4 +55,8 @@
 .agent {
     margin: 1rem;
     width: 6rem;
+}
+
+.contentTab {
+    margin-top: 1rem;
 }
