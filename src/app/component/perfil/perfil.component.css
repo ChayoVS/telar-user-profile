@@ -1,153 +1,128 @@
-/* font-family: 'Cabin', sans-serif;
-font-family: 'Montserrat', sans-serif; */
-.contenedor{
-  background-color: #EEEFDD;
+.col-xl-4,
+.col-xl-6,
+.users {
+    padding: 1rem;
+    background: #EEEFDD;
+    height: auto;
 }
-.info-gen{
-  padding: 50px;
-  border-right: 2px solid #ABA9A9;
-}
-h1{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 22px;
-  font-weight: bold;
-}
-h3,h4,h5,p,li{
-  font-family: 'Cabin', sans-serif;
-  font-size: 16px;
-  margin: 0;
-}
-ul{
-  list-style:none;
-}
-.icono{
-  width: 13px;
-  height: auto;
-  margin:5px 10px;
-}
-.icono-cel{
-  width: 10px;
-  height: auto;
-  margin:5px 10px;
-}
-.info-gen li{
-  font-size: 11px;
-}
-.info-gen ul, .info ul{
- padding: 10px;
-}
-.info-gen button{
-  font-size: 11px;
-  color: #4F424B;
-}
-.card-mostrar{
-  background:#EEEFDD;
-}
-.profile{
-text-align: center;
-}
-.profile img{
-  width: 150px;
-margin-bottom: 20px;
-}
-.contact{
-margin-top: 30px;
-}
-.menu-info button{
-  font-size: 10px;
-}
-.info{
-  padding: 50px;
-}
-button{
-  font-size: 20px;
-  border: none;
-  color:#F28E2A;
-  background-color: transparent;
-}
-.info-place{
-  margin-top: 20px;
-}
-#map{
-  width: 280px;
-}
-.conteiner-agentes h3{
-  text-align: center;
-  font-size: 20px;
-  font-family: 'Cabin', sans-serif;
-}
-.conteiner-agentes {
-  padding-bottom: 50px;
-}
-.carousel-people{
-  display: flex;
-  justify-content: flex-end;
-  flex-wrap: wrap;
-  text-align: center;
-  padding-right: 50px;
-}
-.carousel-people img{
-  width: 80%;
-  margin: 15px;
-}
-.arrow{
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-  padding-right: 50px;
-}
-.carousel-movil{
-  display: none;
-}
-@media (max-width: 768px){
-  .info-gen{
-    margin: 0;
-    padding-left: 150px;
-  }
-  .menu-info button{
-    font-size: 14px;
-  }
-  .info{
-    margin:0;
-    padding-left: 150px;
-    padding-right: 80px;
-  }
-  .carousel-people{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    text-align: center;
-    padding-right: 0px;
-  }
-}
-@media (min-width: 320px) and (max-width: 480px){
-  .info-gen{
-    border-right: none;
-    margin: 0;
-    padding: 70px;
-  }
-  .info{
-    margin: 0;
-    padding: 60px;
-  }
-  #map{
-    width: 250px;
-  }
-  .conteiner-agentes{
-    display: none;
-  }
-  .carousel-movil{
-   display: contents;
-  }
-  .container-carousel{
-    padding: 35px;
-  }
 
-  #carouselExampleControls{
-    width: 350px;
-  }
+.userImg {
+    width: 50%;
+}
 
-  .carousel-inner{
-    width: 200px;
-  }
+.btn-circle.btn-lg {
+    width: 3.125rem;
+    height: 3.125rem;
+    padding: 0.5rem 0.625rem;
+    line-height: 1.33;
+    border-radius: 1.563rem;
+    background: #F28E2A !important;
+    border-color: #F28E2A !important;
+    margin-top: 9.375rem;
+    margin-left: -3.75rem;
+}
+
+.fa-plus {
+    color: white;
+    font-size: 2rem;
+}
+
+.mapImg {
+    width: 100%;
+}
+
+.userSocial,
+.userInfo,
+.subMenu,
+.contentTab {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.socialMedia {
+    margin-left: 1rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+}
+
+.subtitle {
+    font-weight: lighter;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.1rem;
+}
+
+.title {
+    font-family: 'Montserrat';
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.userSubtitle {
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+}
+
+.subMenu {
+    margin-top: 4rem;
+}
+
+.userAddImg {
+    margin-bottom: 3rem;
+}
+
+.agent {
+    margin: 1rem;
+    width: 80%;
+}
+
+.contentTab,
+.tabTitle {
+    font-family: 'Cabin', sans-serif;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+
+.textAll {
+    font-family: 'Cabin', sans-serif;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: transparent;
+    border-color: transparent transparent #F28E2A;
+}
+
+a {
+    color: black;
+}
+
+.agentLabel,
+.buttonMore {
+    margin-left: 1rem;
+    width: 20%;
+}
+
+.userLabelTitle,
+.userLabelJob {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    font-size: 0.8rem;
+}
+
+.userLabelTitle {
+    font-weight: bold;
+}
+
+.moreLink {
+    margin: auto;
+}
+
+.linkMore {
+    color: #F28E2A;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
 }
