@@ -1,14 +1,56 @@
-.col-sm-4 {
-    background: red;
-    height: 94vh;
-}
-
-.col-sm-6 {
-    background: brown;
-    height: 70vh;
-}
-
+.col-md-4,
+.col-md-6,
 .users {
-    background: burlywood;
-    height: 24vh;
+    padding: 1rem;
+    background: #EEEFDD;
+    height: auto;
+}
+
+.userImg {
+    width: 50%;
+}
+
+.btn-circle.btn-lg {
+    width: 3.125rem;
+    height: 3.125rem;
+    padding: 0.5rem 0.625rem;
+    line-height: 1.33;
+    border-radius: 1.563rem;
+    background: #F28E2A !important;
+    border-color: #F28E2A !important;
+}
+
+.fa-plus {
+    color: white;
+    font-size: 2rem;
+}
+
+.mapImg {
+    width: 100%;
+}
+
+.socialMedia {
+    margin-bottom: 0;
+    font-size: 1rem;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+}
+
+.title {
+    font-size: 1.6rem;
+}
+
+.subMenu {
+    margin-top: 4rem;
+}
+
+.userAddImg {
+    margin-bottom: 3rem;
+}
+
+.agent {
+    margin: 1rem;
+    width: 6rem;
 }
