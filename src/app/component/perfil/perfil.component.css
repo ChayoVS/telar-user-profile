@@ -31,17 +31,36 @@
     width: 100%;
 }
 
+.userSocial,
+.userInfo,
+.subMenu,
+.contentTab {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .socialMedia {
+    margin-left: 1rem;
     margin-bottom: 0;
     font-size: 1rem;
 }
 
 .subtitle {
-    font-size: 1.2rem;
+    font-weight: lighter;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.1rem;
 }
 
 .title {
-    font-size: 1.6rem;
+    font-family: 'Montserrat';
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.userSubtitle {
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
 }
 
 .subMenu {
@@ -54,9 +73,52 @@
 
 .agent {
     margin: 1rem;
-    width: 6rem;
+    width: 80%;
 }
 
-.contentTab {
+.contentTab,
+.tabTitle {
+    font-family: 'Cabin', sans-serif;
+    font-size: 0.8rem;
     margin-top: 1rem;
+}
+
+.textAll {
+    font-family: 'Cabin', sans-serif;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: transparent;
+    border-color: transparent transparent #F28E2A;
+}
+
+a {
+    color: black;
+}
+
+.agentLabel,
+.buttonMore {
+    width: 20%;
+}
+
+.userLabelTitle,
+.userLabelJob {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    font-size: 0.8rem;
+}
+
+.userLabelTitle {
+    font-weight: bold;
+}
+
+.moreLink {
+    margin: auto;
+}
+
+.linkMore {
+    color: #F28E2A;
 }
